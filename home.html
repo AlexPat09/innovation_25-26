@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home | ArchaeoloME</title>
+        <script type="text/javascript" src="o3dv.min.js"></script>
+        <script>
+            window.addEventListener ('load', () => {
+                // init all viewers on the page
+                OV.Init3DViewerElements ();
+            });
+        </script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <nav class="topnav-container">
+            <h1>ArchaeoloME</h1>
+            <div class="nav-secondary">
+                <a href="home.html" class="active">Αρχική</a>
+                <a href="map.html">Χάρτης</a>
+                <a href="">Upload</a>
+            </div>
+            <a href="" id="account-button"><i class="fa fa-user-circle"></i></a>
+            <div class="nav-tertiary">
+                <form action="" class="search-container">
+                    <input type="text" placeholder="Αναζήτηση..">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </nav>
+
+        <div id="content-div">
+            <img src="images/3d_athina.jpg" alt="3D μοντέλο του Παρθενώνα">
+            <h2>Σχετικά με Εμάς</h2>
+            <p>To web app είναι μια πρωτοποριακή ιστοσελίδα που ανέπτυξε η ομάδα TECH IT με σκοπό την δημιουργία μιας αξιόπιστης και ευρείας βιβλιοθήκης ακριβών τρισδιάστατων μοντέλων αρχαιολογικών μνημείων και αντικειμένων. Μέσω αυτής θα δίνεται η δυνατότητα σε ερευνητές απο όλο τον κόσμο να μελετήσουν την πολιτιστική κληρονομιά της χώρας μας και να κοινοποιήσουν τις έρευνες τους πίσω στην ιστοσελίδα, ανοίγοντας τον δρόμο για επόμενες έρευνες και δημιουργώντας μία καλά δομημένη κοινότητα.</p>
+            <!-- 
+                <div class="online_3d_viewer"
+                style="width: 400px; height: 300px;"
+                model="objects/horse_001.glb"
+                defaultcolor="209, 209, 207">
+                </div>
+            --> 
+        </div>
+
+        <footer class="footer-container">
+            <h2>Created by TECH IT</h2>
+            <div><p>Email: <a href="mailto:techit.robotics@gmail.com">techit.robotics@gmail.com</a></p></div>
+            <div><p>Instagram: <a href="https://instagram.com/techit.team">techit.team</a></p></div>
+        </footer>
+    </body>
+</html>

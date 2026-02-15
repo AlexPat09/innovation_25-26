@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home | ArchaeoloME</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="main.css">
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <script src="map.js"></script>
+    </head>
+    <body>
+        <nav class="topnav-container">
+            <h1>ArchaeoloME</h1>
+            <div class="nav-secondary">
+                <a href="home.html">Αρχική</a>
+                <a href="map.html" class="active">Χάρτης</a>
+                <a href="">Upload</a>
+            </div>
+            <a href="" id="account-button"><i class="fa fa-user-circle"></i></a>
+            <div class="nav-tertiary">
+                <form action="" class="search-container">
+                    <input type="text" placeholder="Αναζήτηση..">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </nav>
+
+        <div id="content-div">
+            <div style="float: right; " id="location-list">
+                <h2>Τοποθεσίες</h2>
+            </div>
+            <div id="map"></div>
+        </div>
+
+        <footer class="footer-container">
+            <h2>Created by TECH IT</h2>
+            <div><p>Email: <a href="mailto:techit.robotics@gmail.com">techit.robotics@gmail.com</a></p></div>
+            <div><p>Instagram: <a href="https://instagram.com/techit.team">techit.team</a></p></div>
+        </footer>
+    </body>
+</html>
